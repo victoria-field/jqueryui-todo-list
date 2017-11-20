@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jquery UI Todo list</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <h2>Stuff To Do</h2>
+    <button id="btnAddProject" type="button" name="button">Add Project</button>
+
+    <div id="projects">
+      <ul id="main">
+        <li><a href="#personal">Personal</a><span class="ui-icon ui-icon-close"></span></li>
+        <li><a href="#work">Work</a><span class="ui-icon ui-icon-close"></span></li>
+      </ul>
+      <ol id="personal">
+        <li><input type="checkbox">Doctor Appointment</li>
+        <li><input type="checkbox">Call the plumber</li>
+      </ol>
+      <ol id="work">
+        <li><input type="checkbox">Finish to do list app</li>
+        <li><input type="checkbox">deploy it to heroku</li>
+        <li><input type="checkbox">deploy it to github</li>
+      </ol>
+
+    </div>
+
+      <button id="btnAddTask" type="button" name="button">Add Task</button>
+
+    <div id="project-dialog" title="Add a project">
+      <label for="new-project">Project Name:</label><input id="new-project" type="text" />
+
+    </div>
+    <div id="task-dialog" title="Add a task">
+      <label for="new-task">Task Name:</label><input id="new-task" type="text" />
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script type="text/javascript"src="assets/js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+#container{
+  width:700px;
+  height:450px;
+  margin:70px auto;
+  border:2px solid rgb(125, 181, 66);
+
+}
+h2{
+  color:rgb(125, 181, 66);
+  text-align: center;
+}
+#projects{
+  width:650px;
+  height: 250px;
+  margin:0px auto;
+}
+
+ol li{
+  border:1px dotted black;
+  cursor: pointer;
+  padding:5px;
+  margin-bottom:2px;
+
+}
+
+ol li:hover{
+  background: #6eb7d6;
+}
+
+#btnAddProject{
+  margin-left: 540px;
+  margin-bottom: 20px;
+
+}
+#btnAddTask{
+  margin-left: 550px;
+  margin-top: 20px;
+
+}
+
+#project-dialog{
+  display: none;
+}
+
+#task-dialog{
+  display: none;
+}
+.ui-icon-close{
+  transform: scale(1.2);
+  cursor: pointer;
+}
